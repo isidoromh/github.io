@@ -1,0 +1,11 @@
+{ 
+  "HT1": "<a href='assets/Edi-1.jpg' alt='Eduardo'>¿Who am I?</a>",
+  "HS1": "I'm a web and multiplataform developer, in local and in the cloud",
+  "HC1": "As a passionate software developer, I am deeply enthusiastic about creating and developing software applications. I am constantly learning and experimenting with new technologies and approaches, and I have a strong desire to create innovative and effective solutions to complex problems. I am driven by my curiosity and love for problem-solving, and I am committed to producing high-quality, well-designed software that meets the needs of users.<br><br>My specialty covers the creation of dynamic websites and the development of applications for various platforms. I am always looking for opportunities to expand my skills and face new challenges in the field of information technology<.br>I do the entire development cycle, from the conception of the design of the visible part (<i>frontend</i>), to the management of business databases (<i>backend</i>), going through all the stages of development of the logic distributed between the server and the client.<br><br>I have initiative in the resolution of complex problems. I am very good at collaborative work, and I have experience in continuing other outside developments.",
+  "HT2": "Professional studies",
+  "HS2": "",
+  "HC2": "<ul><li>03/2024 - 07/2024<br>Curso de programador de sistemas en AWS<br>Centro Tajamar (510 h)</li><li>10/2023 - 03/2024<br>Curso de desarrollador web para Microsoft Azure<br>Centro Tajamar (400 h)</li><li>09/2021 - 07/2023<br>Título de FP Grado Superior “Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)<br>Universidad Alfonso X El Sabio (2 años)”</li></ul>",
+  "HT3": "Skills",
+  "HS3": "I've experience in:",
+  "HC3": "<ul><li>.NET & C#</li><li>Java & Spring</li><li>HTML, CSS y Bootstrap</li><li>JS, Node.js & Angular</li><li>APIs & Postman</li><li>PHP & WordPress</li><li>Android</li><li>Python</li><li>SQLServer, MySQL, SQLite & MongoDB</li><li>Git, GitHub & GH-Pages</li><li>AWS & Azure</li><li>I stay up to date on HW progress (especially graphics cards), AI SW and video games.</li></ul>"
+}
