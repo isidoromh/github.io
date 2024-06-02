@@ -1,0 +1,17 @@
+/* CSS global for large screens */
+@media (min-width: 768px) {
+  #title {color:orangered;font-size:30px;font-family:Arial, sans-serif;text-align: center;margin-bottom:-50px;}
+  #title:hover {color:chocolate;margin-bottom:10px;}
+  main {display: flex;}
+  .block {flex: 1;margin: 30px 40px 0px 40px;}} /* Adjust spacing between blocks */
+  .tit {color:blue;font-size:30px;}
+  .sub {color:green;font-size:24px;}
+  .con {color:black;font-size:20px;}
+  /* CSS global for small screens */
+@media (max-width: 767px) {
+  #title {color:red;font-size:20px;font-family:Arial, sans-serif;text-align: center;margin-bottom:-20px;}
+  main {display: flex;flex-direction: column;padding:5px;
+  .block {margin-bottom: 20px;}} /* Adjust spacing between blocks */
+  .tit {color:blue;font-size:24px;margin:10px;}
+  .sub {color:green;font-size:20px;}
+  .con {color:black;font-size:16px;}}

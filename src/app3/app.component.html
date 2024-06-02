@@ -1,0 +1,22 @@
+<!--app.component.html-->
+<header>
+  <img [src]="baseLogo" alt="Logo" id="logo" (mouseover)="swapLogo()" (mouseout)="revertLogo()">
+  <ul class="nav-links" [class.active]="menuActive">
+    <li routerLinkActive="active"><a routerLink="/inicio">{{ 'HOME' | translate }}</a></li>
+    <li routerLinkActive="active"><a routerLink="/resumen">{{ 'RESUME' | translate }}</a></li>
+    <li routerLinkActive="active"><a routerLink="/portafolio">{{ 'PORTFOLIO' | translate }}</a></li>
+    <li routerLinkActive="active"><a routerLink="/certificaciones">{{ 'CERT' | translate }}</a></li>
+    <li routerLinkActive="active"><a routerLink="/contacto">{{ 'CONTACT' | translate }}</a></li>
+  </ul>
+  <div class="right-menu">
+    <div class="hamburger" (click)="toggleMenu()">&#9776;</div>
+    <div class="language-switcher">
+      <img src="assets/flags/es.png" alt="Español" class="flag" (click)="switchLanguage('es')">
+      <img src="assets/flags/en.png" alt="English" class="flag" (click)="switchLanguage('en')">
+    </div>
+  </div>
+</header>
+<router-outlet></router-outlet>
+<footer>
+  <h4 [innerHTML]="'FOOT' | translate" [class]="getTranslationClass('FOOT')"></h4>
+</footer>

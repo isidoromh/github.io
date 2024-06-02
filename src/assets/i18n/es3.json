@@ -1,0 +1,11 @@
+{
+  "RT1": "Experiencia",
+  "RS1": "04/2023 - 09/2023<br>Desarrollador full-stack en intuye",
+  "RC1": "Desarrollo de un gestor documental con PHP, HTML, CSS y JavaScript con las siguientes funcionalidades<br><ul><li>Implementando una plataforma web con funciones de registro y autenticación vinculada a una base de datos MySQL mediante XAMPP.</li><li>Diseñando un sistema de gestión de usuarios con roles y privilegios personalizables.</li><li>Creación de un gestor de archivos, que permite: subir, borrar, ordenar, etiquetar archivos.</li></ul>",
+  "RT2": "Cursos",
+  "RS2": "03/2024 - 07/2024<br>Curso de programador de sistemas en AWS<br>Centro Tajamar (510 h)",
+  "RC2": "<ul><li>Desarrollo de aplicaciones en la nube utilizando AWS SDKs y herramientas de desarrollo</li><li>Uso de servicios como EC2, S3, RDS, SNS, Lambda, Docker, Kubernetes, Terraform, Grafana</li><li>Desarrollo de elementos software para gestión de sistemas, para tareas administrativas de sistemas, y para el manejo de dispositivos (drivers)</li><li>Con certificaciones en AWS Cloud Practitioner y Developer Associate</li></ul>",
+  "RT3": "Metoologías",
+  "RS3": "Diseño",
+  "RC3": "<ul><li>Modelo Vista Controlador</li><li>Prioridad UX (experiencia de usuario)</li><li>Encapsulación e inyección de dependencias</li><li>Metodologías ágiles (Scrum y Kanban)</li><li>Diseño adaptativo (móviles)</li></ul>"
+}

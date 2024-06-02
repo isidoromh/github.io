@@ -1,0 +1,29 @@
+<!--app.component.html-->
+<header>
+  <img src="assets/logo.png" alt="Logo" class="logo">
+  <ul class="nav-links" [class.active]="menuActive">
+    <li><a href="#" (click)="navigate('home')">{{ 'HOME' | translate }}</a></li>
+    <li><a href="#" (click)="navigate('resume')">{{ 'RESUME' | translate }}</a></li>
+    <li><a href="#" (click)="navigate('portfolio')">{{ 'PORTFOLIO' | translate }}</a></li>
+    <li><a href="#" (click)="navigate('certifications')">{{ 'CERT' | translate }}</a></li>
+    <li><a href="#" (click)="navigate('contact')">{{ 'CONTACT' | translate }}</a></li>
+  </ul>
+  <div class="right-menu">
+    <div class="hamburger" (click)="toggleMenu()">&#9776;</div>
+    <div class="language-switcher">
+      <img src="assets/flags/es.png" alt="Español" class="flag" (click)="switchLanguage('es')">
+      <img src="assets/flags/en.png" alt="English" class="flag" (click)="switchLanguage('en')">
+    </div>
+  </div>
+</header>
+<main>
+  <h1 [class]="getTranslationClass('TITLE')">{{ 'TITLE' | translate }}</h1>
+  <div [innerHTML]="'HOME_1' | translate" [class]="getTranslationClass('HOME_CONTENT')"></div>
+  <div [innerHTML]="'RESUME_' | translate" [class]="getTranslationClass('RESUME_')"></div>
+  <div [innerHTML]="'STUDY_1' | translate" [class]="getTranslationClass('STUDY_1')"></div>
+  <div [innerHTML]="'STUDY_2' | translate" [class]="getTranslationClass('STUDY_2')"></div>
+  <div [innerHTML]="'STUDY_3' | translate" [class]="getTranslationClass('STUDY_3')"></div>
+</main>
+<footer>
+  <h4 [innerHTML]="'FOOT' | translate" [class]="getTranslationClass('FOOT')"></h4>
+</footer>
